@@ -11,6 +11,16 @@
     margin: 0 auto;
 }
 
+.container-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.container-input p {
+    margin-bottom: 30px;
+}
 
 :root {
     --corPrincipal: #535c68;

@@ -37,7 +37,7 @@ const Repos = ({ userName }) => {
 
                     </li>
                 
-                ))};
+                ))}
         </ul>
                 </>
             )}

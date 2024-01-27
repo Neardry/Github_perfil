@@ -12,15 +12,16 @@ function App() {
   return (
     <>
 
-    <div>
-        <input type="text" onBlur={(e) => setUserName(e.target.value)} />
-    </div>
     {userName.length > 4 && (
       <> 
       <Perfil userName={userName} />
       <Repos userName={userName}/>
       </>
     )}
+    <div className='container container-input'>
+      <p>Insira o seu nome de usuario do GitHub</p>
+        <input type="text" onBlur={(e) => setUserName(e.target.value)} />
+    </div>
 
 
 {/*     {formularioVisivel && (
